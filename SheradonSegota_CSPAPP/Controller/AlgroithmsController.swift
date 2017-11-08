@@ -32,7 +32,7 @@ public class AlgroithmsController: UIViewController {
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight, stepNine, stepTen]
         
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
-        let fullAttributedString = NSMutableAttributedString (string: algorithm, attributes: attributesDictionary,)
+        let fullAttributedString = NSMutableAttributedString (string: algorithm, attributes: attributesDictionary)
         
         for step in algorithmSteps
         {
