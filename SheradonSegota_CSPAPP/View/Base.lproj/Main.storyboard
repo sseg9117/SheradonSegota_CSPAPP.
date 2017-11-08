@@ -22,21 +22,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="118" y="117"/>
         </scene>
         <!--Algorithms Controller-->
         <scene sceneID="Tcj-Et-B7x">
             <objects>
-                <viewController title="Algorithms Controller" id="FQx-Ul-kLt" sceneMemberID="viewController">
+                <viewController title="Algorithms Controller" id="FQx-Ul-kLt" customClass="AlgroithmsController" customModule="SheradonSegota_CSPAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HEY-aI-i6x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irC-Mh-cUT">
+                                <rect key="frame" x="36" y="50" width="303" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Algorithm">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample" translatesAutoresizingMaskIntoConstraints="NO" id="0z9-Aw-u9G">
+                                <rect key="frame" x="40" y="384" width="295" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="7SP-A0-LNt"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EOI-l7-0Dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="835"/>
+            <point key="canvasLocation" x="117.59999999999999" y="834.33283358320841"/>
         </scene>
         <!--Programming Controller-->
         <scene sceneID="vz5-mM-6mT">
@@ -129,4 +149,7 @@
             <point key="canvasLocation" x="2225" y="116"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="javaSample" width="1126" height="754"/>
+    </resources>
 </document>
