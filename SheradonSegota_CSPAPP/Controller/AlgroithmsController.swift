@@ -15,7 +15,7 @@ public class AlgroithmsController: UIViewController {
     
     private func setupAlgorithm() -> Void
     {
-        var algorithmSteps : [String] = []
+        var algorithmSteps : [String] = []  // adds all of the steps in to the string thing
         
         let algorithm :String = "These are the steps to creating a java project.\n"
         let stepOne :String = "Create you project.\n"
@@ -34,7 +34,7 @@ public class AlgroithmsController: UIViewController {
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString (string: algorithm, attributes: attributesDictionary)
         
-        for step in algorithmSteps
+        for step in algorithmSteps// this is a for loop
         {
             let bullet :String = "😎"
             let formattedStep :String = "\n\(bullet) \(step)"
@@ -51,7 +51,7 @@ public class AlgroithmsController: UIViewController {
         
     }
     
-    private func createParagraphStyle() -> NSParagraphStyle
+    private func createParagraphStyle() -> NSParagraphStyle  //applies a styling of font
     {
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .left
