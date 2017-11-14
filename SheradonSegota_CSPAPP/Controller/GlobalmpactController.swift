@@ -16,6 +16,9 @@ class GlobalmpactController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var UILabel2: UILabel!
+    @IBOutlet weak var UILabel3: UILabel!
+    @IBOutlet weak var GlobalImpact2: UIImageView!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
