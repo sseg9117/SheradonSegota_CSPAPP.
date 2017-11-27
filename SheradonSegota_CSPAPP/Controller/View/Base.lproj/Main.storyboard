@@ -90,10 +90,16 @@
                                 <rect key="frame" x="67" y="183" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7a-AY-kga">
-                                <rect key="frame" x="166" y="387" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7a-AY-kga">
+                                <rect key="frame" x="-90" y="371" width="670" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text" base64-UTF8="YES">
+VGhpcyBpcyB0aGUgbW9zdCBhYnN0cmFjdCBhIGxhbmd1YWdlIGlzIG9ubHkgdGhpbmcgbW9yZSBpcyBs
+aWtlIHNheWluZyBoaWdoIHRvIGEgY29tcHV0ZXIuIEl0IGRvc250IGdldCBtcm9lECBhYnN0cmFjdCB0
+aGVuIEJsb2NrcyB0aGF0IHdoeSBpdHMgYmV0dGVyIHRvIHdpcnRlIGluIGphdmEuIFRoaXMgaXMgd2hh
+dCB5b3Ugd291bGQgZG8gaW4gYXBwaW52ZW50b3I
+</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -125,9 +131,16 @@
                                 <rect key="frame" x="67" y="186" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as6-nw-1Vd">
-                                <rect key="frame" x="166" y="352" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as6-nw-1Vd">
+                                <rect key="frame" x="166" y="352" width="1311" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text" base64-UTF8="YES">
+SmF2YSBpcyBsZXNzIGFic3RyYWN0IHRoZW4gQmxvY2tzIG9iaW91c2x5IGJlY2F1c2UgaXRzIHBoaXNp
+Y2FsIGNvZGUgbm90IGp1c3QgYmxvY2tzLiBUaGlzIGlzIHByb2JhYmx5ICBtb3JlECB1c2VkIHdheSBv
+ZiBkb2luZyBjb2RlLiBpIHdvdWxkIHB1dCBqYXZhIGluIHRoZSBtaWRkbGUgb2YgdGhlbSBhbGwuIEph
+dmEgaXMgdGhlIGxhbmd1YWdlIHlvdSBtYWlubHkgdXNlIGFuZCB3b3VsZCBjb2RlIGluIGVjbGlwc2Uu
+A
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -156,9 +169,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJw-hR-mm8">
-                                <rect key="frame" x="166" y="370" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJw-hR-mm8">
+                                <rect key="frame" x="166" y="370" width="952" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">almost as least abstract as binary but its not. byte code is kinda the text you would see if you open a class file in your project.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -191,13 +205,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture 3" translatesAutoresizingMaskIntoConstraints="NO" id="Z3p-x9-rq4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Binary" translatesAutoresizingMaskIntoConstraints="NO" id="Z3p-x9-rq4">
                                 <rect key="frame" x="67" y="179" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYb-3m-FWB">
-                                <rect key="frame" x="166" y="344" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYb-3m-FWB">
+                                <rect key="frame" x="166" y="344" width="1004" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text" base64-UTF8="YES">
+VGhpcyBpcyB2ZXJ5IGxlc3MgYWJzdHJhY3QgdGhlbiBqYXZhIGFuZCBieXRlY29kZSBidXQgbW9yZRAg
+dGhlbiBhbmQgZ2F0ZS4gSXQgaXMgbGl0cmFsbHkgMSdzIGFuZCAwcyB3aGljaCBpcyB3aGF0IGV2ZXJ5
+dGhpbmcgaXMgYmFzaWNhbGx5LiBCaW5hcnkgaXMgYSBsYW5nYWdlIGxpa2UgdGhpbmcgd2l0aCAxJ3Mg
+YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -230,8 +250,16 @@
                                 <rect key="frame" x="67" y="180" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftd-ex-PRA">
-                                <rect key="frame" x="166" y="360" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD5-BQ-Djb">
+                                <rect key="frame" x="157" y="399" width="1169" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The And Gate is the least abstract of the levels. It is the actual electrical tool used to make a decisiont a hardware level. it dost get less abstract then that.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftd-ex-PRA">
+                                <rect key="frame" x="166" y="360" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -369,8 +397,8 @@
     </scenes>
     <resources>
         <image name="AndGate" width="430" height="247"/>
+        <image name="Binary" width="387" height="348"/>
         <image name="Blocks" width="3074" height="1324"/>
-        <image name="Picture 3" width="461" height="250"/>
         <image name="bytecode" width="848" height="594"/>
         <image name="frshwater" width="700" height="325"/>
         <image name="javaSample" width="1126" height="754"/>
