@@ -274,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="85E-7e-09p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1493.5999999999999" y="832.53373313343332"/>
+            <point key="canvasLocation" x="1526" y="116"/>
         </scene>
         <!--Global Impact Controller-->
         <scene sceneID="fBF-Dt-d70">
@@ -326,7 +326,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8e-QD-WZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2224.8000000000002" y="832.53373313343332"/>
+            <point key="canvasLocation" x="1542" y="834"/>
+        </scene>
+        <!--Abstraction Controller-->
+        <scene sceneID="8L9-dd-0tV">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="6GT-OJ-Eh0" customClass="AbstractionController" customModule="SheradonSegota_CSPAPP" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DaJ-so-415" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-554" y="1615"/>
         </scene>
         <!--Creativity Controller-->
         <scene sceneID="ZlQ-0V-qpq">
@@ -342,21 +350,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZFa-3I-o2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="799" y="118"/>
-        </scene>
-        <!--Abstraction Controller-->
-        <scene sceneID="qnB-P3-yMx">
-            <objects>
-                <viewController title="Abstraction Controller" id="Grr-DT-FeN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="V3P-uy-eTc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="0wz-gD-506"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5cO-Tn-5EW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1495" y="117"/>
         </scene>
         <!--Data and Information Controller-->
         <scene sceneID="a03-yG-4oD">
