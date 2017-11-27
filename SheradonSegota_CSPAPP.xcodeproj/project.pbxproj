@@ -19,6 +19,8 @@
 		B27918FF1FA224F700AB25B0 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27918FE1FA224F700AB25B0 /* ProgrammingController.swift */; };
 		B27919011FA2250900AB25B0 /* TheInternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27919001FA2250900AB25B0 /* TheInternetController.swift */; };
 		B27919031FA2251900AB25B0 /* GlobalmpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27919021FA2251900AB25B0 /* GlobalmpactController.swift */; };
+		B2A561FB1FC32A5600F50D3F /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FA1FC32A5600F50D3F /* Accessable.swift */; };
+		B2A561FD1FC32AFC00F50D3F /* DebugAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B27918FE1FA224F700AB25B0 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		B27919001FA2250900AB25B0 /* TheInternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInternetController.swift; sourceTree = "<group>"; };
 		B27919021FA2251900AB25B0 /* GlobalmpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactController.swift; sourceTree = "<group>"; };
+		B2A561FA1FC32A5600F50D3F /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
+		B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				B27918F11FA21FAD00AB25B0 /* Controller */,
-				B27918F21FA21FCA00AB25B0 /* View */,
 				B27918F31FA21FE000AB25B0 /* Resources */,
 			);
 			path = SheradonSegota_CSPAPP;
@@ -87,7 +90,8 @@
 				B27919001FA2250900AB25B0 /* TheInternetController.swift */,
 				B27919021FA2251900AB25B0 /* GlobalmpactController.swift */,
 				B27918DE1FA21F8D00AB25B0 /* AppDelegate.swift */,
-				B27918F51FA220CD00AB25B0 /* Model */,
+				B2A561F91FC32A1600F50D3F /* Model */,
+				B27918F21FA21FCA00AB25B0 /* View */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,9 +114,11 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		B27918F51FA220CD00AB25B0 /* Model */ = {
+		B2A561F91FC32A1600F50D3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B2A561FA1FC32A5600F50D3F /* Accessable.swift */,
+				B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 				B27918F71FA2249400AB25B0 /* CreativityController.swift in Sources */,
 				B27919011FA2250900AB25B0 /* TheInternetController.swift in Sources */,
 				B27918FB1FA224D000AB25B0 /* Data and Information Controller.swift in Sources */,
+				B2A561FD1FC32AFC00F50D3F /* DebugAccess.swift in Sources */,
+				B2A561FB1FC32A5600F50D3F /* Accessable.swift in Sources */,
 				B27918E11FA21F8D00AB25B0 /* ViewController.swift in Sources */,
 				B27918DF1FA21F8D00AB25B0 /* AppDelegate.swift in Sources */,
 			);
