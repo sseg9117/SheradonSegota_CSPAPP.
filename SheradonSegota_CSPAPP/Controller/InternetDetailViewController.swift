@@ -6,11 +6,27 @@
 //  Copyright © 2017 Segota, Sheradon. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import WebKit
 
-public class InternetDetailViewController : InternetMasterViewController
+public class InternetDetailViewController : UIViewController
 {
+    //MARK: GUI Controls
+    @IBOutlet weak var textView: UILabel!
+    @IBOutlet weak var webViewer: WKWebView!
     
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+        setup()
+        // Do any additional setup af loading the view.
+        
+    }
+    
+    private func setup() -> Void
+    {
+        
+    }
 }
 
 
