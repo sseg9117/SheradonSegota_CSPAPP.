@@ -8,31 +8,54 @@
 
 import UIKit
 
-class TheInternetController: UITableViewController
+public class InternetMasterViewController: UITableViewController
 {
-
-    override func viewDidLoad()
+    private (set) lazy var internetTopics :[String] =
     {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning()
+        return [
+            "Definitions",
+            "CSP",
+            "CTEC",
+            "Canyons",
+            "Twitter",
+            "Swift Guide"
+        ]
+    }()
+    private var detailViewController : InternetDetailViewController?
+    
+    private func setup() -> Void
     {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override public func viewDidLoad()
+    {
+        super.viewDidLoad()
+        setup()
+        // Uncommen the following line to preserve selction between presentaitions
+        self.clearsSelectionOnViewWillAppear = false
+        
     }
-    */
+    // MARK: - Table view data source
+    
+    override public func numberOfSections(in tableView: UITableView) -> Int
+    {
+        // #warning Incomplete implemtation, return the number of sections
+        return 1
+    }
+    
+    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return internetTopics.count
+    }
+    
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+    let currentText = internetTopics[indexPath.row]
+    cell.textLabel!.text = currentText
+    
+    return cell
+    }
 
 }
