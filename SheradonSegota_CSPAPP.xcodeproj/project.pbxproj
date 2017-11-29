@@ -22,6 +22,7 @@
 		B2A561FB1FC32A5600F50D3F /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FA1FC32A5600F50D3F /* Accessable.swift */; };
 		B2A561FD1FC32AFC00F50D3F /* DebugAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */; };
 		B2FBC9261FCEFFED003591C1 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBC9251FCEFFED003591C1 /* InternetDetailViewController.swift */; };
+		B2FBC9291FCF0B29003591C1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FBC9281FCF0B29003591C1 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B2A561FA1FC32A5600F50D3F /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
 		B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAccess.swift; sourceTree = "<group>"; };
 		B2FBC9251FCEFFED003591C1 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		B2FBC9281FCF0B29003591C1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FBC9291FCF0B29003591C1 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 			children = (
 				B27918DD1FA21F8D00AB25B0 /* SheradonSegota_CSPAPP */,
 				B27918DC1FA21F8D00AB25B0 /* Products */,
+				B2FBC9271FCF0B28003591C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +128,14 @@
 				B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B2FBC9271FCF0B28003591C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBC9281FCF0B29003591C1 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
