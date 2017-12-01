@@ -15,7 +15,7 @@ public class InternetDetailViewController : UIViewController
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var webViewer: WKWebView!
     
-    var detailAdress : String?
+    var detailAddress : String?
     {
         // MARK: Upadte the detail view when a value is changed.
         didSet
@@ -43,11 +43,11 @@ public class InternetDetailViewController : UIViewController
     
     private func configureDetailView() -> Void
     {
-        if detailAdress != nil
+        if detailAddress != nil
         {
             if let currentWebView = webViewer
             {
-                let currentURL = URL(string: detailAdress!)
+                let currentURL = URL(string: detailAddress!)
                 let currentWebRequest = URLRequest(url: currentURL!)
                 currentWebView.load(currentWebRequest)
             }
