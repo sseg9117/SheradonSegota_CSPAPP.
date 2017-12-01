@@ -83,9 +83,12 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BpS-OS-puk" id="FfM-8r-szT">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="XCc-eG-mRc" kind="showDetail" identifier="showDetail" id="EXh-Mq-jyf"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -498,4 +501,7 @@ YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
         <image name="javaSample" width="1126" height="754"/>
         <image name="maxresdefault" width="1280" height="720"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="EXh-Mq-jyf"/>
+    </inferredMetricsTieBreakers>
 </document>
