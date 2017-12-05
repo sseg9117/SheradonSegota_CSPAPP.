@@ -21,6 +21,7 @@
 		B27919031FA2251900AB25B0 /* GlobalmpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27919021FA2251900AB25B0 /* GlobalmpactController.swift */; };
 		B2A561FB1FC32A5600F50D3F /* Accessable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FA1FC32A5600F50D3F /* Accessable.swift */; };
 		B2A561FD1FC32AFC00F50D3F /* DebugAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */; };
+		B2CFF8A21FD6EFD6005DED40 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CFF8A11FD6EFD6005DED40 /* DrawingView.swift */; };
 		B2FBC9261FCEFFED003591C1 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBC9251FCEFFED003591C1 /* InternetDetailViewController.swift */; };
 		B2FBC9291FCF0B29003591C1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FBC9281FCF0B29003591C1 /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		B27919021FA2251900AB25B0 /* GlobalmpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalmpactController.swift; sourceTree = "<group>"; };
 		B2A561FA1FC32A5600F50D3F /* Accessable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessable.swift; sourceTree = "<group>"; };
 		B2A561FC1FC32AFC00F50D3F /* DebugAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugAccess.swift; sourceTree = "<group>"; };
+		B2CFF8A11FD6EFD6005DED40 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		B2FBC9251FCEFFED003591C1 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		B2FBC9281FCF0B29003591C1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 			children = (
 				B27918E21FA21F8D00AB25B0 /* Main.storyboard */,
 				B27918E71FA21F8D00AB25B0 /* LaunchScreen.storyboard */,
+				B2CFF8A11FD6EFD6005DED40 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				B27918FF1FA224F700AB25B0 /* ProgrammingController.swift in Sources */,
 				B27918FD1FA224E200AB25B0 /* AlgroithmsController.swift in Sources */,
 				B2FBC9261FCEFFED003591C1 /* InternetDetailViewController.swift in Sources */,
+				B2CFF8A21FD6EFD6005DED40 /* DrawingView.swift in Sources */,
 				B27918F71FA2249400AB25B0 /* CreativityController.swift in Sources */,
 				B27919011FA2250900AB25B0 /* InternetMasterViewController.swift in Sources */,
 				B27918FB1FA224D000AB25B0 /* Data and Information Controller.swift in Sources */,
