@@ -63,7 +63,8 @@
                         <viewLayoutGuide key="safeArea" id="M2b-rK-lSY"/>
                     </view>
                     <connections>
-                        <outlet property="webViewer" destination="woH-Oc-92T" id="Y3u-lm-gco"/>
+                        <outlet property="textView" destination="DYa-7p-g4p" id="sWz-k1-Dlw"/>
+                        <outlet property="webViewer" destination="woH-Oc-92T" id="wu4-Ku-3vq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZXZ-HL-wH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -73,13 +74,13 @@
         <!--Root View Controller-->
         <scene sceneID="ZUR-P5-j54">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="JLH-7d-avr" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="JLH-7d-avr" customClass="InternetMasterViewController" customModule="SheradonSegota_CSPAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="kYT-jK-LLM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseidentifier" id="BpS-OS-puk">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="BpS-OS-puk">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BpS-OS-puk" id="FfM-8r-szT">

@@ -21,7 +21,8 @@ public class InternetMasterViewController: UITableViewController
             "Swift Guide"
         ]
     }()
-    private lazy var addresses : [String] = [ ]
+    private lazy var addresses : [String] = []
+    
     private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
