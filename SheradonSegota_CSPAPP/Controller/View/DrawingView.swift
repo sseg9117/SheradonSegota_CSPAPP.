@@ -49,11 +49,42 @@ public class DrawingView: UIView
     }
     private func drawTurtle() -> Void
     {
-        
+        let logo = UIBezierPath()
+        UIColor.white.setFill()
+        logo.move(to: CGPoint(x: 50, y: 250))
+        logo.addLine(to: CGPoint(x: 100, y: 300))
+        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.close()
+        logo.fill()
     }
     private func drawHappyTree() -> Void
     {
+        let bobRoss = UIBezierPath()
         
+        bobRoss.move(to: CGPoint(x:8, y:50))
+        bobRoss.addLine(to: CGPoint(x:120, y:150))
+        bobRoss.addLine(to: CGPoint(x:40, y:150))
+        bobRoss.close()
+        UIColor(patternImage: UIImage(named: "tree")!).setFill()
+        UIColor.brown.setStroke()
+        bobRoss.lineWidth = 2.0
+        bobRoss.fill()
+        bobRoss.stroke()
+        
+        let happyTree = UIBezierPath()
+        
+        UIColor.green.setFill()
+        happyTree.move(to: CGPoint(x: 110, y: 150))
+        happyTree.addLine(to: CGPoint(x:150, y:200))
+        happyTree.addLine(to: CGPoint(x: 10, y: 200))
+        happyTree.addLine(to: CGPoint(x:50, y: 150))
+        happyTree.close()
+        happyTree.stroke()
+        happyTree.fill()
+        happyTree.move(to: CGPoint(x: 80, y: 200))
+        happyTree.addLine(to: CGPoint(x: 80, y: 250))
+        happyTree.lineWidth = 6.0
+        happyTree.stroke()
     }
 
 }
