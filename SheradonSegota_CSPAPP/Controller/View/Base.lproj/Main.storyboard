@@ -526,7 +526,7 @@ YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agP-71-cy3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3408.8000000000002" y="1771.6641679160421"/>
+            <point key="canvasLocation" x="-4734" y="672"/>
         </scene>
         <!--Creativity Controller-->
         <scene sceneID="ZlQ-0V-qpq">
@@ -574,7 +574,7 @@ YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q94-6D-kPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4161" y="1772"/>
+            <point key="canvasLocation" x="-5636" y="672"/>
         </scene>
     </scenes>
     <resources>

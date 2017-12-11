@@ -77,7 +77,7 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
         artCell.backgroundColor = .purple
-        artCell.imageView.image = artSelection [indexPath]
+        artCell.imageView.image = artSelection [indexPath.row]
         artCell.imageName.text = "My Art"
         
         return artCell
