@@ -52,9 +52,9 @@ public class DrawingView: UIView
     {
         let bobRoss = UIBezierPath()
         
-        bobRoss.move(to: CGPoint(x:8, y:50))
-        bobRoss.addLine(to: CGPoint(x:120, y:150))
-        bobRoss.addLine(to: CGPoint(x:40, y:150))
+        bobRoss.move(to: CGPoint(x:80, y:50))
+        bobRoss.addLine(to: CGPoint(x:150, y:200))
+        bobRoss.addLine(to: CGPoint(x:10, y:200))
         bobRoss.close()
         UIColor(patternImage: UIImage(named: "tree")!).setFill()
         UIColor.brown.setStroke()
