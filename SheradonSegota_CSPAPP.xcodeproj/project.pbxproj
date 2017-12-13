@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B222E9291FE1747C003CA3A9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = B222E9281FE1747C003CA3A9 /* Sounds */; };
 		B222E92B1FE176C5003CA3A9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E92A1FE176C5003CA3A9 /* Utilities.swift */; };
 		B222E92D1FE17712003CA3A9 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = B222E92C1FE17712003CA3A9 /* StarField.sks */; };
 		B222E9331FE177A8003CA3A9 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E92E1FE177A8003CA3A9 /* Invader.swift */; };
@@ -39,7 +38,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B222E9281FE1747C003CA3A9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		B222E92A1FE176C5003CA3A9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B222E92C1FE17712003CA3A9 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		B222E92E1FE177A8003CA3A9 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
@@ -50,6 +48,11 @@
 		B222E9381FE1814F003CA3A9 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		B222E9391FE1814F003CA3A9 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
 		B222E93A1FE1814F003CA3A9 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B222E93F1FE18828003CA3A9 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
+		B222E9401FE18828003CA3A9 /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
+		B222E9411FE18829003CA3A9 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "extra sound.mp3"; sourceTree = "<group>"; };
+		B222E9421FE18829003CA3A9 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		B222E9431FE18829003CA3A9 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "powerup sound.mp3"; sourceTree = "<group>"; };
 		B27918DB1FA21F8D00AB25B0 /* SheradonSegota_CSPAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheradonSegota_CSPAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27918DE1FA21F8D00AB25B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27918E01FA21F8D00AB25B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +98,19 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		B222E9441FE18836003CA3A9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B222E9401FE18828003CA3A9 /* boss sound.mp3 */,
+				B222E9411FE18829003CA3A9 /* extra sound.mp3 */,
+				B222E93F1FE18828003CA3A9 /* invader sound.mp3 */,
+				B222E9421FE18829003CA3A9 /* laser sound.mp3 */,
+				B222E9431FE18829003CA3A9 /* powerup sound.mp3 */,
+			);
+			name = sounds;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		B27918D21FA21F8D00AB25B0 = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				B27918F11FA21FAD00AB25B0 /* Controller */,
+				B27918F21FA21FCA00AB25B0 /* View */,
 				B27918F31FA21FE000AB25B0 /* Resources */,
+				B2A561F91FC32A1600F50D3F /* Model */,
 			);
 			path = SheradonSegota_CSPAPP;
 			sourceTree = "<group>";
@@ -136,8 +154,6 @@
 				B27919001FA2250900AB25B0 /* InternetMasterViewController.swift */,
 				B2FBC9251FCEFFED003591C1 /* InternetDetailViewController.swift */,
 				B2DA5AC11FDADE1B00993304 /* ArtCell.swift */,
-				B2A561F91FC32A1600F50D3F /* Model */,
-				B27918F21FA21FCA00AB25B0 /* View */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -157,7 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B222E92A1FE176C5003CA3A9 /* Utilities.swift */,
-				B222E9281FE1747C003CA3A9 /* Sounds */,
+				B222E9441FE18836003CA3A9 /* sounds */,
 				B27918E51FA21F8D00AB25B0 /* Assets.xcassets */,
 				B27918EA1FA21F8D00AB25B0 /* Info.plist */,
 			);
@@ -246,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B222E92D1FE17712003CA3A9 /* StarField.sks in Resources */,
-				B222E9291FE1747C003CA3A9 /* Sounds in Resources */,
 				B27918E91FA21F8D00AB25B0 /* LaunchScreen.storyboard in Resources */,
 				B27918E61FA21F8D00AB25B0 /* Assets.xcassets in Resources */,
 				B27918E41FA21F8D00AB25B0 /* Main.storyboard in Resources */,

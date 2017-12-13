@@ -382,7 +382,7 @@ YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
         <scene sceneID="vz5-mM-6mT">
             <objects>
                 <viewController title="Programming Controller" id="YpN-BM-TGz" customClass="ProgrammingController" customModule="SheradonSegota_CSPAPP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JNG-S5-bFg">
+                    <view key="view" contentMode="scaleToFill" id="JNG-S5-bFg" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
