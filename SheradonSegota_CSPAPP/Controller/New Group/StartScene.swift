@@ -1,8 +1,8 @@
 //
 //  StartScene.swift
-//  Sample_CSP
+//  SheradonSegota_CSPAPP
 //
-//  Created by Cody Henrichsen on 11/19/17.
+//  Created by Sheradon Segota on 11/19/17.
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
@@ -31,12 +31,12 @@ public class StartScene : SKScene
         let touchLocation = currentTouch?.location(in: self)
         let touchedNode = self.atPoint(touchLocation!)
         
-        if (TouchedNode.name == "start")
+        if (touchedNode.name == "start")
         {
             let gameOverScene = GameScene(size: size)
             gameOverScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 1.0)
-            view?.presentScene(gameOverScene, trasition: transitionType)
+            view?.presentScene(gameOverScene, transition: transitionType)
         }
         
     }

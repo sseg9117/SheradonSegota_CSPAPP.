@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B222E9271FE173E4003CA3A9 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = B222E9261FE173E4003CA3A9 /* GameController */; };
 		B222E9291FE1747C003CA3A9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = B222E9281FE1747C003CA3A9 /* Sounds */; };
 		B222E92B1FE176C5003CA3A9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E92A1FE176C5003CA3A9 /* Utilities.swift */; };
 		B222E92D1FE17712003CA3A9 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = B222E92C1FE17712003CA3A9 /* StarField.sks */; };
@@ -16,6 +15,9 @@
 		B222E9351FE177A8003CA3A9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E9301FE177A8003CA3A9 /* Player.swift */; };
 		B222E9361FE177A8003CA3A9 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E9311FE177A8003CA3A9 /* PlayerLaser.swift */; };
 		B222E9371FE177A8003CA3A9 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E9321FE177A8003CA3A9 /* Projectile.swift */; };
+		B222E93B1FE1814F003CA3A9 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E9381FE1814F003CA3A9 /* StartScene.swift */; };
+		B222E93C1FE1814F003CA3A9 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E9391FE1814F003CA3A9 /* LevelCompleteScene.swift */; };
+		B222E93D1FE1814F003CA3A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222E93A1FE1814F003CA3A9 /* GameScene.swift */; };
 		B27918DF1FA21F8D00AB25B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27918DE1FA21F8D00AB25B0 /* AppDelegate.swift */; };
 		B27918E11FA21F8D00AB25B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27918E01FA21F8D00AB25B0 /* ViewController.swift */; };
 		B27918E41FA21F8D00AB25B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27918E21FA21F8D00AB25B0 /* Main.storyboard */; };
@@ -37,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B222E9261FE173E4003CA3A9 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
 		B222E9281FE1747C003CA3A9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		B222E92A1FE176C5003CA3A9 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B222E92C1FE17712003CA3A9 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
@@ -46,6 +47,9 @@
 		B222E9301FE177A8003CA3A9 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B222E9311FE177A8003CA3A9 /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
 		B222E9321FE177A8003CA3A9 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		B222E9381FE1814F003CA3A9 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		B222E9391FE1814F003CA3A9 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		B222E93A1FE1814F003CA3A9 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B27918DB1FA21F8D00AB25B0 /* SheradonSegota_CSPAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheradonSegota_CSPAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27918DE1FA21F8D00AB25B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27918E01FA21F8D00AB25B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B222E93E1FE181A8003CA3A9 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				B222E93A1FE1814F003CA3A9 /* GameScene.swift */,
+				B222E9391FE1814F003CA3A9 /* LevelCompleteScene.swift */,
+				B222E9381FE1814F003CA3A9 /* StartScene.swift */,
+			);
+			name = GameController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		B27918D21FA21F8D00AB25B0 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +124,7 @@
 		B27918F11FA21FAD00AB25B0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B222E9261FE173E4003CA3A9 /* GameController */,
+				B222E93E1FE181A8003CA3A9 /* GameController */,
 				B27918E01FA21F8D00AB25B0 /* ViewController.swift */,
 				B27918F61FA2249400AB25B0 /* CreativityController.swift */,
 				B27918F81FA224AD00AB25B0 /* AbstractionController.swift */,
@@ -232,7 +247,6 @@
 			files = (
 				B222E92D1FE17712003CA3A9 /* StarField.sks in Resources */,
 				B222E9291FE1747C003CA3A9 /* Sounds in Resources */,
-				B222E9271FE173E4003CA3A9 /* GameController in Resources */,
 				B27918E91FA21F8D00AB25B0 /* LaunchScreen.storyboard in Resources */,
 				B27918E61FA21F8D00AB25B0 /* Assets.xcassets in Resources */,
 				B27918E41FA21F8D00AB25B0 /* Main.storyboard in Resources */,
@@ -247,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B222E9371FE177A8003CA3A9 /* Projectile.swift in Sources */,
+				B222E93B1FE1814F003CA3A9 /* StartScene.swift in Sources */,
 				B27918F91FA224AD00AB25B0 /* AbstractionController.swift in Sources */,
 				B222E9331FE177A8003CA3A9 /* Invader.swift in Sources */,
 				B2DA5AC21FDADE1B00993304 /* ArtCell.swift in Sources */,
@@ -259,8 +274,10 @@
 				B27918F71FA2249400AB25B0 /* CreativityController.swift in Sources */,
 				B27919011FA2250900AB25B0 /* InternetMasterViewController.swift in Sources */,
 				B27918FB1FA224D000AB25B0 /* Data and Information Controller.swift in Sources */,
+				B222E93C1FE1814F003CA3A9 /* LevelCompleteScene.swift in Sources */,
 				B222E9361FE177A8003CA3A9 /* PlayerLaser.swift in Sources */,
 				B222E9341FE177A8003CA3A9 /* InvaderLaser.swift in Sources */,
+				B222E93D1FE1814F003CA3A9 /* GameScene.swift in Sources */,
 				B2A561FD1FC32AFC00F50D3F /* DebugAccess.swift in Sources */,
 				B2A561FB1FC32A5600F50D3F /* Accessable.swift in Sources */,
 				B27918E11FA21F8D00AB25B0 /* ViewController.swift in Sources */,

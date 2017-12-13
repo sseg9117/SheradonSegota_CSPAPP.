@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="igv-Ui-eUH" kind="showDetail" id="Shi-EG-lUJ"/>
+                                    <segue destination="YpN-BM-TGz" kind="show" id="jXE-FI-QhF"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ywe-4j-jDb" customClass="DrawingView" customModule="SheradonSegota_CSPAPP" customModuleProvider="target">
@@ -381,7 +381,7 @@ YW5kIDAncyByYXJlbHkgdXNlZCB0aG91Z2guA
         <!--Programming Controller-->
         <scene sceneID="vz5-mM-6mT">
             <objects>
-                <viewController title="Programming Controller" id="YpN-BM-TGz" sceneMemberID="viewController">
+                <viewController title="Programming Controller" id="YpN-BM-TGz" customClass="ProgrammingController" customModule="SheradonSegota_CSPAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JNG-S5-bFg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
