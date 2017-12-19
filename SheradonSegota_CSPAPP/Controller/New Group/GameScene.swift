@@ -170,6 +170,23 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             secondBody = contact.bodyA
         }
         
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0)) &&
+            (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0)
+        {
+            print("CONTACT: Invader to PlayerBullet")
+        }
+        
+        if ((firstBody.categoryBitMask & CollisionCategories.InvaderBullet != 0)) &&
+            (secondBody.categoryBitMask & CollisionCategories.Player != 0)
+        {
+            print("CONTACT: InvaderBullet to Player")
+        }
+        
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0)) &&
+            (secondBody.categoryBitMask & CollisionCategories.Player != 0)
+        {
+            print("CONTACT: Invader to Player")
+        }
     }
     
 }
