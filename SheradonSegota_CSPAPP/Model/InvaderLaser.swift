@@ -27,9 +27,4 @@ public class InvaderLaser: Projectile
         super.init(coder: aDecoder)
     }
     
-    public func fireBullet(scene: SKScene) -> Void
-    {
-        
-    }
-    
 }
