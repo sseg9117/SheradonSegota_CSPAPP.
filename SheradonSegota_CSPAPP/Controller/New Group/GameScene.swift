@@ -178,7 +178,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     override public func update(_ currentTime: CFTimeInterval) -> Void
     {
-        
+        moveInvaders()
     }
     
     override public func didSimulatePhysics()
