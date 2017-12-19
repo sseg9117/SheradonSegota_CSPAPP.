@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-public class InvaderBullet: Projectile
+public class InvaderLaser: Projectile
 {
     override init(imageName: String, bulletSound:String?)
     {
