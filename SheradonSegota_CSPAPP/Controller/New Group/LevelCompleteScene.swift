@@ -28,10 +28,10 @@ public class LevelCompleteScene: SKScene
         let touchedNode = self.atPoint(touchLocation!)
         if(touchedNode.name == "nextlevel")
         {
-            let gameOverScene = GameScene(size: size)
-            gameOverScene.scaleMode = scaleMode
+            let nextLevelScene = GameScene(size: size)
+            nextLevelScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?.presentScene(gameOverScene,transition: transitionType)
+            view?.presentScene(nextLevelScene,transition: transitionType)
         }
     }
 }
