@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="YpN-BM-TGz" kind="show" id="jXE-FI-QhF"/>
+                                    <segue destination="YpN-BM-TGz" kind="showDetail" id="1lv-lr-MMQ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ywe-4j-jDb" customClass="DrawingView" customModule="SheradonSegota_CSPAPP" customModuleProvider="target">

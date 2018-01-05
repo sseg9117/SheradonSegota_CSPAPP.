@@ -202,7 +202,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     //MARK:- SKPhysicsContactDelegate method
     
-    func didBeginContact(contact: SKPhysicsContact) -> Void
+    public func didBegin(_ contact: SKPhysicsContact) -> Void
     {
         
         var firstBody: SKPhysicsBody
