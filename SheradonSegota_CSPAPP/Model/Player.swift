@@ -73,7 +73,10 @@ public class Player: SKSpriteNode
     {
         gameLevel = 1
         
-        let gameOverScene = DeathScene(size: self.scene!.size)
+        let sample = self.scene!.size
+        print(sample)
+        
+        let gameOverScene = DeathScene(size: sample)
         gameOverScene.scaleMode = self.scene!.scaleMode
         let transitionType = SKTransition.flipHorizontal(withDuration: 1)
         self.scene!.view!.presentScene(gameOverScene,transition: transitionType)
